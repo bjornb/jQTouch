@@ -874,9 +874,9 @@
                 .trigger('orientationchange');
 
             // Normalize href
-            if (location.hash.length) {
-                location.replace(location.href.split('#')[0]);
-            }
+//            if (location.hash.length) {
+//                location.replace(location.href.split('#')[0]);
+//            }
             
             // Make sure exactly one child of body has "current" class
             if ($('#jqt > .current').length == 0) {
