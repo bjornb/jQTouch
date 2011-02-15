@@ -264,6 +264,7 @@ body {
 /* Flip Left */
 
 #jqt .flipleft {
+	-webkit-animation-duration: .55s;
     -webkit-backface-visibility: hidden;
 }
 
@@ -298,6 +299,7 @@ body {
 /* Flip Right */
 
 #jqt .flipright {
+    -webkit-animation-duration: .55s;
     -webkit-backface-visibility: hidden;
 }
 
